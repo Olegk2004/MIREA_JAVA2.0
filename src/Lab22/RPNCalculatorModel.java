@@ -1,9 +1,26 @@
 package Lab22;
 
-import java.util.Scanner;
 import java.util.Stack;
 
-public class RPNCalculator {
+public class RPNCalculatorModel {
+    private String expression = "";
+
+    public String getExpression() {
+        return expression;
+    }
+
+    public void clearExpression() {
+        this.expression = "";
+    }
+
+    public void addToExpression(String str){
+        expression+=str;
+    }
+
+    public void backspaceExpression(){
+        expression = expression.substring(0, expression.length()-1);
+    }
+
     public static boolean isNumber(String symb) {
         try {
             double res = Double.parseDouble(symb);
@@ -38,10 +55,10 @@ public class RPNCalculator {
         }
     }
 
-    public static double calculate(String str) {
-        String[] expression = str.split(" ");
+    public double calculate() {
+        String[] expr = expression.split(" ");
         Stack<Double> stack = new Stack<>();
-        for (String elem : expression) {
+        for (String elem : expr) {
             if (isNumber(elem)) {
                 stack.push(Double.parseDouble(elem));
             } else if (isOper(elem)) {
@@ -55,12 +72,5 @@ public class RPNCalculator {
             }
         }
         return stack.pop();
-    }
-
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Введите выражение в одну строку, вводя символы через пробел: ");
-        String str = in.nextLine();
-        System.out.println(calculate(str));
     }
 }
