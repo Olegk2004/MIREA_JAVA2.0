@@ -8,7 +8,7 @@ public class AnyTypeArray {
         if (num <= 0) {
             throw new IllegalArgumentException("Capacity must be a positive value.");
         }
-        array = new Object[new];
+        array = new Object[num];
         size = 0;
     }
 
