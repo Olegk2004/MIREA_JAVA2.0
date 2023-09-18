@@ -17,7 +17,7 @@ public class ArrayToList {
     }
 
     public static void main(String[] args) {
-        String[] stringArray = {"apple", "banana", "cherry"};
+        String[] stringArray = {"One", "Two", "Three"};
         List<String> stringList = arrayToList(stringArray);
 
         System.out.println("List of Strings:");
@@ -25,7 +25,7 @@ public class ArrayToList {
             System.out.println(str);
         }
 
-        Integer[] intArray = {1, 2, 3, 4, 5};
+        Integer[] intArray = {1, 2, 3};
         List<Integer> intList = arrayToList(intArray);
 
         System.out.println("List of Integers:");
