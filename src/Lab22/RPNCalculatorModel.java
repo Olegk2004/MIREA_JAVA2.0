@@ -46,11 +46,8 @@ public class RPNCalculatorModel {
                 return num1 * num2;
             }
             case "/" -> {
-                if (num2 == 0.0) {
-                    return 404;
-                } else {
-                    return num1 / num2;
-                }
+
+                return num1 / num2;
             }
             default -> throw new IllegalArgumentException("Неверный оператор");
         }
