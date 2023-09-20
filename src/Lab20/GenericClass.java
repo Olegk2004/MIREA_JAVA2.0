@@ -2,7 +2,7 @@ package Lab20;
 
 import java.io.Serializable;
 
-interface Animal{
+interface Animal {
 
 }
 
@@ -28,6 +28,7 @@ public class GenericClass<T extends Comparable<T>, V extends Serializable & Anim
     public V getValue2() {
         return value2;
     }
+
     public void displayClassNames() {
         Class<?> class1 = value1.getClass();
         Class<?> class2 = value2.getClass();

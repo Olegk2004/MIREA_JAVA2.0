@@ -1,7 +1,7 @@
 package Lab20;
 
 class MinMax<T extends Comparable<T>> {
-    private T[] array;
+    private final T[] array;
 
     public MinMax(T[] array) {
         this.array = array;
