@@ -68,7 +68,7 @@ public class RPNCalculatorModel {
                 } else {
                     double first = stack.pop();
                     double second = stack.pop();
-                    stack.push(operation(first, second, elem));
+                    stack.push(operation(second, first, elem));
                 }
             }
         }
