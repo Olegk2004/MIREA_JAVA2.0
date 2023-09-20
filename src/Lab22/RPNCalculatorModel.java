@@ -3,7 +3,7 @@ package Lab22;
 import java.util.Stack;
 
 public class RPNCalculatorModel {
-    private static String expression = "";
+    private String expression = "";
 
     public String getExpression() {
         return expression;
@@ -23,7 +23,7 @@ public class RPNCalculatorModel {
 
     public static boolean isNumber(String symb) {
         try {
-            double res = Double.parseDouble(symb);
+            Double.parseDouble(symb);
             return true;
         } catch (Exception e) {
             return false;
@@ -31,10 +31,7 @@ public class RPNCalculatorModel {
     }
 
     public static boolean isOper(String symb) {
-        if (symb.equals("+") || symb.equals("-") || symb.equals("*") || symb.equals("/")) {
-            return true;
-        }
-        return false;
+        return symb.equals("+") || symb.equals("-") || symb.equals("*") || symb.equals("/");
     }
 
     public double operation(Double num1, Double num2, String oper) {
@@ -55,9 +52,7 @@ public class RPNCalculatorModel {
                     return num1 / num2;
                 }
             }
-            default -> {
-                throw new IllegalArgumentException("Неверный оператор");
-            }
+            default -> throw new IllegalArgumentException("Неверный оператор");
         }
     }
 

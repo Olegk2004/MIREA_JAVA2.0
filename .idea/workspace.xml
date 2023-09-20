@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82777ed-e8e1-41c3-b6eb-a0e855862f6a" name="Changes" comment="2 задание">
+      <change afterPath="$PROJECT_DIR$/src/Lab22/RPNCalculatorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab22/RPNCalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab22/RPNCalculatorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java" afterDir="false" />
@@ -62,6 +63,7 @@
       <workItem from="1694969501361" duration="1883000" />
       <workItem from="1695026058484" duration="12293000" />
       <workItem from="1695233432792" duration="2123000" />
+      <workItem from="1695235977428" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="vdvdvd">
       <option name="closed" value="true" />
@@ -117,6 +119,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vdvdvd" />
     <MESSAGE value="2 и 3 задания" />
@@ -133,14 +146,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Lab22/RPNCalculatorView.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="9" />
+          <line>74</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,11 +7,12 @@ import java.awt.event.ActionListener;
 public class RPNCalculatorView {
     private JFrame frame;
     private JTextField textField;
-    private JButton[] basicButtons;
-    private JButton equalButton;
+    JButton[] basicButtons;
+    JButton equalButton;
     JButton spaceButton;
-    private JButton backspaceButton;
-    private JButton clearButton;
+    JButton backspaceButton;
+    JButton clearButton;
+
     public RPNCalculatorView() {
         frame = new JFrame("Калькулятор");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -57,8 +58,8 @@ public class RPNCalculatorView {
         firstButtonPanel.add(basicButtons[14]);
 
         //for(JButton but: basicButtons){
-          //  firstButtonPanel.add(but);
-       // }
+        //  firstButtonPanel.add(but);
+        // }
         spaceButton = new JButton("_");
         firstButtonPanel.add(spaceButton);
 
@@ -77,29 +78,10 @@ public class RPNCalculatorView {
         frame.setVisible(true);
     }
 
-    public void addBasicButtonListener(ActionListener listener) {
-        for (JButton button : basicButtons) {
-            button.addActionListener(listener);
-        }
-    }
-
-    public void addClearButtonListener(ActionListener listener) {
-        clearButton.addActionListener(listener);
-    }
-
-    public void addSpaceButtonListener(ActionListener listener) {
-        spaceButton.addActionListener(listener);
-    }
-
-    public void addBackspaceButtonListener(ActionListener listener) {
-        backspaceButton.addActionListener(listener);
-    }
-    public void addEqualButtonListener(ActionListener listener) {
-        equalButton.addActionListener(listener);
-    }
     public void setTextField(String text) {
         textField.setText(text);
     }
+
     public String getTextField() {
         return textField.getText();
     }
