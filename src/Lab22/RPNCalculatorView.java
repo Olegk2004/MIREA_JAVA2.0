@@ -9,7 +9,7 @@ public class RPNCalculatorView {
     private JTextField textField;
     private JButton[] basicButtons;
     private JButton equalButton;
-    private JButton spaceButton;
+    JButton spaceButton;
     private JButton backspaceButton;
     private JButton clearButton;
     public RPNCalculatorView() {
@@ -24,7 +24,7 @@ public class RPNCalculatorView {
         JPanel firstButtonPanel = new JPanel(new GridLayout(4, 4));
         JPanel secondButtonPanel = new JPanel(new GridLayout(1, 3));
 
-        basicButtons = new JButton[16];
+        basicButtons = new JButton[15];
         basicButtons[0] = new JButton("1");
         firstButtonPanel.add(basicButtons[0]);
         basicButtons[1] = new JButton("2");
@@ -91,7 +91,7 @@ public class RPNCalculatorView {
         spaceButton.addActionListener(listener);
     }
 
-    public void addCBackspaceButtonListener(ActionListener listener) {
+    public void addBackspaceButtonListener(ActionListener listener) {
         backspaceButton.addActionListener(listener);
     }
     public void addEqualButtonListener(ActionListener listener) {

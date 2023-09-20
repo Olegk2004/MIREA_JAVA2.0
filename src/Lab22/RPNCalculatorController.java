@@ -14,7 +14,7 @@ public class RPNCalculatorController {
 
         view.addBasicButtonListener(new BasicButtonListener());
         view.addClearButtonListener(new ClearButtonListener());
-        view.addCBackspaceButtonListener(new BackspaceButtonListener());
+        view.addBackspaceButtonListener(new BackspaceButtonListener());
         view.addSpaceButtonListener(new SpaceButtonListener());
         view.addEqualButtonListener(new EqualButtonListener());
     }

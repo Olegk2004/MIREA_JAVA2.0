@@ -3,7 +3,7 @@ package Lab22;
 import java.util.Stack;
 
 public class RPNCalculatorModel {
-    private String expression = "";
+    private static String expression = "";
 
     public String getExpression() {
         return expression;
@@ -13,12 +13,12 @@ public class RPNCalculatorModel {
         this.expression = "";
     }
 
-    public void addToExpression(String str){
-        expression+=str;
+    public void addToExpression(String str) {
+        expression += str;
     }
 
-    public void backspaceExpression(){
-        expression = expression.substring(0, expression.length()-1);
+    public void backspaceExpression() {
+        expression = expression.substring(0, expression.length() - 1);
     }
 
     public static boolean isNumber(String symb) {
@@ -37,25 +37,31 @@ public class RPNCalculatorModel {
         return false;
     }
 
-    public static double operation(Double num1, Double num2, String oper) {
+    public double operation(Double num1, Double num2, String oper) {
         switch (oper) {
-            case "+":
+            case "+" -> {
                 return num1 + num2;
-            case "-":
+            }
+            case "-" -> {
                 return num1 - num2;
-            case "*":
+            }
+            case "*" -> {
                 return num1 * num2;
-            case "/":
-                if (num2 == 0) {
-                    throw new ArithmeticException("Деление на ноль");
+            }
+            case "/" -> {
+                if (num2 == 0.0) {
+                    return 404;
+                } else {
+                    return num1 / num2;
                 }
-                return num1 / num2;
-            default:
+            }
+            default -> {
                 throw new IllegalArgumentException("Неверный оператор");
+            }
         }
     }
 
-    public double calculate() {
+    public void calculate() {
         String[] expr = expression.split(" ");
         Stack<Double> stack = new Stack<>();
         for (String elem : expr) {
@@ -71,6 +77,6 @@ public class RPNCalculatorModel {
                 }
             }
         }
-        return stack.pop();
+        expression = String.valueOf(stack.pop());
     }
 }
