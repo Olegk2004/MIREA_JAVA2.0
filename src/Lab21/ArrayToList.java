@@ -7,13 +7,11 @@ import java.util.List;
 public class ArrayToList {
 
     public static List<String> arrayToList(String[] array) {
-        List<String> list = new ArrayList<>(Arrays.asList(array));
-        return list;
+        return new ArrayList<>(Arrays.asList(array));
     }
 
     public static List<Integer> arrayToList(Integer[] array) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(array));
-        return list;
+        return new ArrayList<>(Arrays.asList(array));
     }
 
     public static void main(String[] args) {
