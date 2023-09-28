@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82777ed-e8e1-41c3-b6eb-a0e855862f6a" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/src/Lab24/AbstractChairFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab24/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab24/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab24/FunctionalChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab24/MagicChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab24/VictorianChair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/olegk/Downloads/Java_Practic/Java Practic/src/Patterns/AbstractChairFactory.java",
+    "last_opened_file_path": "C:/Users/olegk/Downloads/Java_Practic/Java Practic/src/Patterns/MultifunctionalChair.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,6 +56,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lab24" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +74,7 @@
       <workItem from="1695233432792" duration="2123000" />
       <workItem from="1695235977428" duration="1443000" />
       <workItem from="1695586692627" duration="316000" />
+      <workItem from="1695838907330" duration="3479000" />
     </task>
     <task id="LOCAL-00001" summary="vdvdvd">
       <option name="closed" value="true" />
@@ -112,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695069002577</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="a">
+      <option name="closed" value="true" />
+      <created>1695839076930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695839076930</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +154,8 @@
     <MESSAGE value="2 и 3 задания" />
     <MESSAGE value="1 задание" />
     <MESSAGE value="2 задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 задание" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
