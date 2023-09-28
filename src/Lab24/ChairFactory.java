@@ -7,12 +7,12 @@ public class ChairFactory implements AbstractChairFactory {
     }
 
     @Override
-    public FunctionalChair createMultifunctionalChair() {
+    public FunctionalChair createFunctionalChair() {
         return new FunctionalChair();
     }
 
     @Override
-    public MagicChair createMagicalChair() {
+    public MagicChair createMagicChair() {
         return new MagicChair();
     }
 }

@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d82777ed-e8e1-41c3-b6eb-a0e855862f6a" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/Lab24/AbstractChairFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab24/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab24/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab24/FunctionalChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab24/MagicChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab24/VictorianChair.java" afterDir="false" />
+    <list default="true" id="d82777ed-e8e1-41c3-b6eb-a0e855862f6a" name="Changes" comment="A">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/olegk/Downloads/Java_Practic/Java Practic/src/Patterns/MultifunctionalChair.java",
+    "last_opened_file_path": "C:/Users/olegk/Downloads/Java_Practic/Java Practic/src/Patterns/VictorianChairFactory.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +69,7 @@
       <workItem from="1695233432792" duration="2123000" />
       <workItem from="1695235977428" duration="1443000" />
       <workItem from="1695586692627" duration="316000" />
-      <workItem from="1695838907330" duration="3479000" />
+      <workItem from="1695838907330" duration="4038000" />
     </task>
     <task id="LOCAL-00001" summary="vdvdvd">
       <option name="closed" value="true" />
@@ -132,7 +127,31 @@
       <option name="project" value="LOCAL" />
       <updated>1695839076930</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2 задание">
+      <option name="closed" value="true" />
+      <created>1695896362963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695896362963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2 задание">
+      <option name="closed" value="true" />
+      <created>1695896440001</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695896440001</updated>
+    </task>
+    <task id="LOCAL-00010" summary="A">
+      <option name="closed" value="true" />
+      <created>1695896531748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695896531748</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,18 +172,14 @@
     <MESSAGE value="vdvdvd" />
     <MESSAGE value="2 и 3 задания" />
     <MESSAGE value="1 задание" />
-    <MESSAGE value="2 задание" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="2 задание" />
+    <MESSAGE value="A" />
+    <option name="LAST_COMMIT_MESSAGE" value="A" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java</url>
           <line>74</line>

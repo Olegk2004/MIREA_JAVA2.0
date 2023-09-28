@@ -3,7 +3,7 @@ package Lab24;
 public interface AbstractChairFactory {
     VictorianChair createVictorianChair();
 
-    FunctionalChair createMultifunctionalChair();
+    FunctionalChair createFunctionalChair();
 
-    MagicChair createMagicalChair();
+    MagicChair createMagicChair();
 }
