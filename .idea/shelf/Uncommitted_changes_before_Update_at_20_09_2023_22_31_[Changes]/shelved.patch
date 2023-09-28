@@ -1,0 +1,88 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d82777ed-e8e1-41c3-b6eb-a0e855862f6a\" name=\"Changes\" comment=\"2 задание\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/Lab22/RPNCalculatorMain.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Lab22/RPNCalculatorController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Lab22/RPNCalculatorController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Lab22/RPNCalculatorView.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Lab22/RPNCalculatorView.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2VX5HW1cFyM3xA7hkSzCUBObXVu\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/olegk/IdeaProjects/MIREA_JAVA/src/Main.java&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d82777ed-e8e1-41c3-b6eb-a0e855862f6a\" name=\"Changes\" comment=\"\" />\r\n      <created>1694969499944</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1694969499944</updated>\r\n      <workItem from=\"1694969501361\" duration=\"1883000\" />\r\n      <workItem from=\"1695026058484\" duration=\"12293000\" />\r\n      <workItem from=\"1695233432792\" duration=\"2123000\" />\r\n      <workItem from=\"1695235977428\" duration=\"1443000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"vdvdvd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695026462749</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695026462749</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"vdvdvd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695026636724</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695026636724</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"vdvdvd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695057578447</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695057578447</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"2 и 3 задания\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695057829244</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695057829244</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"1 задание\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695060866338</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695060866338</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"2 задание\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695069002577</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695069002577</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"vdvdvd\" />\r\n    <MESSAGE value=\"2 и 3 задания\" />\r\n    <MESSAGE value=\"1 задание\" />\r\n    <MESSAGE value=\"2 задание\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"2 задание\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Main.java</url>\r\n          <line>13</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java</url>\r\n          <line>74</line>\r\n          <option name=\"timeStamp\" value=\"10\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5dd496490bd243fd4c339dd02408bb823f189746)
++++ b/.idea/workspace.xml	(date 1695238218162)
+@@ -5,11 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="d82777ed-e8e1-41c3-b6eb-a0e855862f6a" name="Changes" comment="2 задание">
+-      <change afterPath="$PROJECT_DIR$/src/Lab22/RPNCalculatorMain.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Lab22/RPNCalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab22/RPNCalculatorController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Lab22/RPNCalculatorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab22/RPNCalculatorView.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -31,6 +27,7 @@
+ }</component>
+   <component name="ProjectId" id="2VX5HW1cFyM3xA7hkSzCUBObXVu" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <OptionsSetting value="false" id="Update" />
+     <ConfirmationsSetting value="2" id="Add" />
+   </component>
+   <component name="ProjectViewState">
+@@ -63,7 +60,6 @@
+       <workItem from="1694969501361" duration="1883000" />
+       <workItem from="1695026058484" duration="12293000" />
+       <workItem from="1695233432792" duration="2123000" />
+-      <workItem from="1695235977428" duration="1443000" />
+     </task>
+     <task id="LOCAL-00001" summary="vdvdvd">
+       <option name="closed" value="true" />
+@@ -113,23 +109,20 @@
+       <option name="project" value="LOCAL" />
+       <updated>1695069002577</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="2 задание">
++      <option name="closed" value="true" />
++      <created>1695237959416</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1695237959416</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="vdvdvd" />
+     <MESSAGE value="2 и 3 задания" />
+@@ -146,9 +139,14 @@
+           <option name="timeStamp" value="1" />
+         </line-breakpoint>
+         <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Lab22/RPNCalculatorView.java</url>
++          <line>97</line>
++          <option name="timeStamp" value="7" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
+           <url>file://$PROJECT_DIR$/src/Lab22/RPNCalculatorModel.java</url>
+-          <line>74</line>
+-          <option name="timeStamp" value="10" />
++          <line>50</line>
++          <option name="timeStamp" value="9" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
